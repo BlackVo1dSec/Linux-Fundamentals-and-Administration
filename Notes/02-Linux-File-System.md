@@ -21,11 +21,23 @@ By the end of this section I should be able to:
 
 # Overview
 
-Write a short summary of what this topic is about.
+This topic consist of the foundation and basics of a linux Operating Systems.
 
-Example:
+Topics will cover:
 
-The Linux file system is organized as a single hierarchical tree beginning at the root directory (`/`). Everything in Linux is treated as a file, including hardware devices and processes.
+Linux file Hierachy
+Linux navigation
+Directories
+
+
+The Linux file system is organized as a single hierarchical tree which begins with the root directory (`/`).
+
+Everything in Linux is considered and treated as a file,
+including hardware devices and processes.
+
+- `/` represents the root directory
+- `/dev/sda1` serves as the hardware  file for the disk partition
+- `/proc/<PID>` serves as the process file which shows information for a specific process
 
 ---
 
@@ -85,17 +97,21 @@ Contains personal user directories.
 
 **Purpose**
 
-Print the current working directory.
+Print the current users working directory.
 
 ```bash
 pwd
 ```
 
-Example Output
+- Example 
 
-```text
-/home/blackvoid
+```BlackVo1d@localhost
+ pwd
 ```
+
+- Output
+/home/blackvoid
+
 
 Notes
 
